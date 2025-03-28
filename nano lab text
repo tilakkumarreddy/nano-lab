@@ -1,0 +1,1182 @@
+ 
+ 
+ 
+ECA31 NANOELECTRONICS MASTER RECORD 
+ 
+ELECTRONICS AND COMMUNICATION ENGINEERING 
+ 
+ 
+ 
+ 
+TABLE OF CONTENTS 
+ 
+TEST CASE QUESTIONS	3 
+Exp. 1.  SIMULATION OF QUANTUM CONFINED STRUCTURES	9 
+1(a): SIMULATION OF DENSITY OF STATES OF QUANTUM WELL STRUCTURE WITH VARIOUS NANOMETER THICKNESS	9 
+1(b): SIMULATION OF BAND STRUCTURE OF NANOWIRE FOR VARIOUS MATERIALS	14 
+1(c): SIMULATION OF ENERGY STATES OF QUANTUM DOT	22 
+Exp. 2. SIMULATION OF VOLTAGE CURRENT CHARACTERISTICS OF RESONANT TUNNELING DIODE	31 
+Exp. 3. DEMONSTRATION OF QUANTUM TUNNELING	42 
+Exp. 4. CHARACTERIZATION OF SINGLE-GATE MOSFET USING NANOHUB FETTOY SIMULATOR	47 
+Exp. 5. CHARACTERIZATION OF HIGH-🇰 DIELECTRIC MOSFETS	56 
+EXP. 6. DEMONSTRATION OF BALLISTIC TRANSPORT	65 
+Exp. 7. SIMULATION OF VI CHARACTERISTICS OF FINFET BY VARYING THE GATE CHANNEL LENGTH AND OXIDE THICKNESS	71 
+Exp. 8. SIMULATION OF DENSITY OF STATES AND CONDUCTANCE OF CNTFET BY VARYING THE DIAMETER AND LENGTH	78 
+Exp. 9.  SIMULATION OF VI CHARACTERISTIC OF GRAPHENE FIELD EFFECT TRANSISTOR	82 
+Exp. 10.   DEMONSTRATION OF ELECTROMAGNETIC RESONANCE IN MAGNETIC NANOPARTICLES	86 
+Exp. 11. BIOSENSOR AND BIO FET	91 
+Exp. 12. CALCULATE THE POTENTIAL OF A PH SENSOR	92 
+
+Exp. 13. SIMULATION OF VI CHARACTERISTICS OF SOLAR CELL..............................................................................95 
+Exp. 14. SIMULATION OF VI CHARACTERISTICS OF BIO-FET.......................................................................................97 
+Exp. 15. SIMULATION OF TUNNELLING MAGNETORESISTANCE (TMR) BY VARYING BARRIER HEIGHT......99 
+Exp. 16. KRONIG PENNEY MODEL........................................................................................................................................ 102 
+ 
+TEST CASE QUESTIONS 
+Exp. 1: SIMULATION OF QUANTUM CONFINED STRUCTURES 
+1(a): Simulation of Density of States of Quantum Well Structure with Various Nanometer Thickness 
+Simulate the density of states for a quantum well with a thickness of 5 nm. How does it differ from a 2 nm well? 
+Compare the density of states for materials GaAs and InAs. What influences the differences? 
+Investigate the impact of temperature changes on the density of states for a 3 nm quantum well. 
+Study the effect of varying confinement potential on the density of states for a quantum well. 
+How does adding a strain layer to the quantum well affect the density of states? 
+1(b): Simulation of Band Structure of Nanowire for Various Materials 
+Simulate the band structure of a silicon nanowire with a diameter of 5 nm. How does increasing the diameter affect the bandgap? 
+Compare the band structures of Si and GaAs nanowires. What material properties contribute to the differences? 
+Investigate the effect of adding a dielectric coating to the nanowire on its band structure. 
+How does the crystal orientation (e.g., <100>, <110>) of the nanowire affect its band structure? 
+Simulate a nanowire with defects. How do the band structure and electronic properties change? 
+1(c): Simulation of Energy States of Quantum Dot 
+Simulate the energy states of a spherical quantum dot with a radius of 5 nm. How do the states shift with a radius of 2 nm? 
+Investigate the effect of different surrounding dielectric constants on the energy states. 
+Compare energy states for quantum dots of CdSe and ZnS. What factors influence the differences? 
+How does doping a quantum dot affect its energy levels? 
+Simulate the impact of external electric fields on the energy states of a quantum dot. 
+ 
+ 
+Exp. 2: SIMULATION OF VOLTAGE-CURRENT CHARACTERISTICS OF RESONANT TUNNELING DIODE 
+Simulate the VI characteristics of a resonant tunneling diode with a barrier height of 0.3 eV. What changes occur when the barrier height increases to 0.5 eV? 
+Compare the peak-to-valley current ratio (PVCR) for different barrier widths. 
+Investigate the effect of temperature on the VI characteristics of the diode. 
+How does the material (e.g., GaAs vs. InP) affect the tunneling characteristics? 
+Simulate the effect of doping concentration on the tunneling current. 
+ 
+Exp. 3: DEMONSTRATION OF QUANTUM TUNNELING 
+Simulate a particle tunneling through a barrier of height 1 eV and thickness 1 nm. How does the tunneling probability change with a thickness of 2 nm? 
+Investigate the effect of increasing the particle energy on the tunneling probability for a fixed barrier. 
+How does the tunneling probability differ for electrons and protons through the same barrier? 
+Simulate the effect of barrier shape (e.g., rectangular vs. triangular) on tunneling probability. 
+Study the tunneling dynamics for a multi-barrier system. How do the resonance effects influence the outcome? 
+ 
+ 
+Exp. 4: CHARACTERIZATION OF SINGLE-GATE MOSFET USING NANOHUB FETTOY SIMULATOR 
+Simulate the IV characteristics of a single-gate MOSFET with a gate length of 20 nm. How does reducing the gate length to 10 nm affect the performance? 
+Investigate the effect of increasing the oxide thickness on threshold voltage. 
+Compare the subthreshold slope for different materials used in the channel. 
+Simulate the impact of increasing the drain voltage on the saturation region. 
+Study how channel doping affects the drain current in the MOSFET. 
+ 
+Exp. 5: CHARACTERIZATION OF HIGH-κ DIELECTRIC MOSFETS 
+Simulate the threshold voltage of a high-κ dielectric MOSFET with HfO₂ as the gate dielectric. How does it compare with SiO₂? 
+Investigate the effect of increasing the dielectric constant on the leakage current. 
+Simulate the subthreshold slope for MOSFETs with different high-κ materials (e.g., Al₂O₃ vs. HfO₂). 
+Compare the on-current and off-current characteristics for MOSFETs with high-κ and traditional SiO₂ dielectrics. 
+Study the effect of scaling the gate oxide thickness on device performance. 
+ 
+Exp. 6: DEMONSTRATION OF BALLISTIC TRANSPORT 
+Simulate the IV characteristics of a nanoscale device assuming ballistic transport. How does increasing the channel length affect transport properties? 
+Compare the carrier velocity for ballistic and non-ballistic transport in a Si channel. 
+Investigate the effect of temperature on ballistic transport efficiency. 
+Simulate the impact of material choice (e.g., Si vs. GaAs) on ballistic transport. 
+Study how surface scattering influences ballistic transport in nanowires. 
+ 
+Exp. 7: SIMULATION OF VI CHARACTERISTICS OF FINFET 
+Simulate the VI characteristics of a FinFET with a gate length of 10 nm. How does increasing the gate length to 20 nm affect the performance? 
+Investigate the effect of varying the oxide thickness on the threshold voltage. 
+Compare the subthreshold slope for single-gate and double-gate FinFETs. 
+Simulate the drain-induced barrier lowering (DIBL) effect for different channel lengths. 
+Study the impact of increasing the fin height on the on-current of the FinFET. 
+ 
+Exp. 8: SIMULATION OF CNTFET 
+Simulate the density of states for a CNTFET with a diameter of 1 nm. How does increasing the diameter to 2 nm affect the conductance? 
+Investigate the effect of increasing the channel length on the VI characteristics. 
+Compare the performance of CNTFETs with semiconducting and metallic nanotubes. 
+Simulate the impact of gate voltage on the density of states. 
+Study the effect of varying the chirality of the CNT on device characteristics. 
+ 
+Exp. 9: SIMULATION OF GRAPHENE FET 
+Simulate the VI characteristics of a graphene FET with a channel length of 10 nm. How does reducing the length to 5 nm affect performance? 
+Investigate the effect of increasing the doping concentration on the threshold voltage. 
+Compare the subthreshold slope for graphene FETs with and without a top-gate structure. 
+Simulate the impact of gate dielectric material on device performance. 
+Study how temperature affects the VI characteristics of graphene FETs. 
+ 
+Exp. 10: DEMONSTRATION OF ELECTROMAGNETIC RESONANCE IN MAGNETIC NANOPARTICLES 
+Simulate the resonance frequency for magnetic nanoparticles of diameter 10 nm. How does it change with a particle size of 20 nm? 
+Investigate the effect of changing the magnetic field strength on the resonance frequency of Fe₃O₄ nanoparticles. 
+Compare the resonance peaks of Co and Fe nanoparticles. What material properties influence the differences? 
+Study the effect of temperature on the magnetic resonance frequency. Why do these changes occur? 
+Simulate the impact of introducing a dielectric layer around the nanoparticle. How does it affect the resonance properties? 
+ 
+Exp. 11: BIOSENSOR AND BIO FET 
+How does the threshold voltage (Vt ) vary with pH when the electrolyte pH is increased from 4 to 8? Verify if the sensitivity aligns with the theoretical value of 59mV/pH. 
+How do the transfer characteristics (Ids vs. Vfg ) shift when the pH of the electrolyte changes from 4 to 8? Analyze the trend and determine if the threshold voltage shifts consistently with pH. 
+Compare the BioFET sensitivity for low pH (e.g., pH 4) and high pH (e.g., pH 8). Are there any deviations in sensitivity, and if so, what could be the possible reasons? 
+How does the threshold voltage (Vt) of the BioFET respond to pH variation (4 to 8) when protein is used as the analyte instead of DNA? Compare the results to those obtained using DNA. 
+What is the effect of reducing receptor density (e.g., from 1×10^12 to 5×10^11) on the sensitivity and threshold voltage (Vt) of the BioFET for pH values ranging from 4 to 8? 
+ 
+ 
+Exp. 12: CALCULATE THE POTENTIAL OF A PH SENSOR 
+Simulate the output potential of a pH sensor at pH 7. How does it change for pH 5 and pH 9? 
+Investigate the effect of electrode material (e.g., Pt vs. Ag/AgCl) on the sensitivity of the pH sensor. 
+Study the impact of temperature changes on the sensor's potential. 
+Simulate the performance of the pH sensor in solutions with varying ionic strengths. 
+How does the sensor's potential vary when using a buffer solution vs. a non-buffer solution? 
+ 
+Exp. 13: SIMULATION OF VI CHARACTERISTICS OF SOLAR CELL 
+Simulate the VI characteristics of a silicon solar cell under standard AM1.5 illumination. How does reducing the light intensity affect the output? 
+Investigate the effect of increasing the doping concentration in the emitter layer on the fill factor. 
+Study the impact of temperature changes on the short-circuit current and open-circuit voltage. 
+Compare the efficiency of single-junction and tandem-junction solar cells. What factors contribute to the differences? 
+Simulate the effect of anti-reflective coating thickness on the short-circuit current. 
+ 
+ 
+Exp. 14: SIMULATION OF TUNNELING MAGNETORESISTANCE (TMR) BY VARYING BARRIER HEIGHT 
+Simulate the TMR ratio for a barrier height of 0.3 eV. How does increasing the barrier height to 0.6 eV affect the ratio? 
+Investigate the effect of varying the thickness of the tunneling barrier on the TMR ratio. 
+Study how temperature variations influence the TMR characteristics. 
+Compare the TMR ratio for devices using CoFeB and MgO materials. What factors contribute to the differences? 
+Simulate the impact of spin polarization on the TMR characteristics. 
+ 
+Exp. 15: KRONIG PENNEY MODEL 
+Simulate the band structure for a periodic potential with a well depth of 0.5 eV. How does it change for a well depth of 1 eV? 
+Investigate the effect of varying the lattice constant on the width of the bandgap. 
+Compare the band structures for square and sinusoidal potential profiles. 
+Study the impact of increasing the barrier height on the effective mass of electrons. 
+Simulate the density of states for a one-dimensional lattice. How does it compare to a three-dimensional system? 
+ 
+	******	 
+Exp. 1.  SIMULATION OF QUANTUM CONFINED STRUCTURES 
+1(a): SIMULATION OF DENSITY OF STATES OF QUANTUM WELL STRUCTURE WITH VARIOUS NANOMETER THICKNESS. 
+ 
+Aim: To simulate density of states of quantum well structure with various nano meter thickness.  Software: NanoHub Online Tool  Theory: 
+ 
+  
+A quantum well is a potential well with only discrete energy values. The classic model used to demonstrate a quantum well is to confine particles, which were originally free to move in three dimensions, to two dimensions, by forcing them to occupy a planar region. The effects of quantum confinement take place when the quantum well thickness becomes comparable to the de Broglie wavelength of the carriers (generally electrons and holes), leading to energy levels called "energy subbands", i.e., the carriers can only have discrete energy values. 
+ Procedure: 
+ Open nanoHUB. 
+Goto Resources -> Tools. 
+Select Quantum wells in Tags. 
+Select Thermolelectric Factor calculator for nanocrystalline Composites in Resources. 
+Press Launch tool in info section. 
+Enter appropriate values in required section. 
+Select the Materials (Germanium/ Silicon). 
+Enter the material thickness required. 
+Press simulate to view results. 
+Select the Materials (Germanium/ Silicon). 
+Enter the material thickness required. 
+Press simulate to view results. 
+Compare both the results. 
+ Output: 
+ 
+ 
+ 
+  
+Case Study 1: Simulate the density of states of quantum well of thickness 0.5 nm 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Case Study 2: Simulate the density of states of quantum well of thickness 0.6 nm 
+ 
+Result: 
+Simulation of density of states of quantum well structure with various nanometer thickness is accomplished. 
+ 
+1(b): SIMULATION OF BAND STRUCTURE OF NANOWIRE FOR VARIOUS MATERIALS 
+Aim: 
+To simulate the band structure of nanowire for various materials. 
+ Software: NanoHub Online Tool  Theory: 
+A quantum wire is an electrically conducting wire in which quantum effects influence the transport properties. Usually such effects appear in the dimension of nanometres.If the diameter of a wire is sufficiently small, electrons will experience quantum confinement in the transverse direction. As a result, their transverse energy will be limited to a series of discrete values. One consequence of this quantization is that the classical formula for calculating the electrical resistance of a wire 
+ 
+Procedure: 
+Open nanoHUB. 
+Goto Resources -> Tools. 
+Select Nanowire in Tags. 
+Select ABACUS - Assembly of Basic Applications for Coordinated Understanding of Semiconductors in Resources. 
+Press Launch tool in the info section. 
+Select the Applications -> Band structure Lab 
+Select Geometry -> 1D Nanowire 
+Device cross section -> Circular 
+Select the Material Type 
+Press simulate to view results. 
+Compare the results of various materials. 
+ 
+ 
+ 
+ 
+ Output: 
+ 
+ 
+ 
+ 
+  
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+Case Study 1: Simulate the band-structure of InAs circular nanowire 
+  
+ 
+ 
+  
+Case Study 2: Simulate the band-structure of AlGaAs circular nanowire 
+ 
+ 
+Result: 
+Simulation of band structure of nanowire for various materials is accomplished. 
+  
+  
+ 
+ 
+ 
+ 
+1(c): SIMULATION OF ENERGY STATES OF QUANTUM DOT 
+ Aim: 
+To obtain the energy states of Quantum dots.  
+Software: NanoHub Online Tool  Theory: 
+Quantum dots (QD) are very small semiconductor particles, only several nanometres in size, so small that their optical and electronic properties differ from those of larger particles. They are a central theme in nanotechnology. Many types of quantum dot will emit light of specific frequencies if electricity or light is applied to them, and these frequencies can be precisely tuned by changing the dots' size, shape and material, giving rise to many applications.Quantum dots exhibit properties that are intermediate between those of bulk semiconductors and those of discrete molecules. Their optoelectronic properties change as a function of both size and shape. Larger QDs (diameter of 5–6 nm, for example) emit longer wavelengths resulting in emission colors such as orange or red. Smaller QDs (diameter of 2–3 nm, for example) emit shorter wavelengths resulting in colors like blue and green, although the specific colors and sizes vary depending on the exact composition of the QD.Because of their highly tunable properties, QDs are of wide interest. Potential applications include transistors, solar cells, LEDs, diode lasers and second-harmonic generation, quantum computing, and medical imaging. 
+Procedure: 
+Open nanoHUB. 
+Goto Resources -> Tools. 
+Select Quantum Dot in Tags. 
+Select Quantum dot -> Quantum dot Lab ●       Press Launch tool in info section. 
+Select the type of Quantum dot Structure ●       Select Energy Bandgap and enter the value ●       Press simulate to view results. 
+Select Result - > Energy States 
+Repeat the above steps for simple and multi-layer quantum dot ●       Compare the results of various materials. 
+  
+  
+Output: 
+
+ 
+ 
+  
+  
+Case Study 1: Simulate the energy states of cylindrical quantum dots of X=15 nm, Y = 10.5nm and Z = 8 nm. 
+  
+ 
+ 
+ Case Study 2: Simulate the energy states of two layer cuboid quantum dots 
+  
+ 
+ 
+Analytical: 
+A thin film of SiO2 is deposited on a silicon substrate. The film has a thickness of 50 nm,  and a refractive index of 1.5. Calculate the wavelength of light that experiences constructive interference in the film. 
+Given 
+Thickness of the film, t=50 nm, 
+Refractive index of the film, n=1.5. 
+The formula for constructive interference in a thin film with thickness t, refractive index n, and incident light of wavelength λ in a vacuum (or air) is given by: 
+ 
+  Result: 
+         	The Simulation of energy states of quantum dots is accomplished. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Exp. 2. SIMULATION OF VOLTAGE CURRENT CHARACTERISTICS OF RESONANT TUNNELING DIODE 
+ 
+Aim:  
+To obtain the Voltage current characteristics of resonant Tunneling diode (RTD) 
+ 
+Software: NanoHub Online Tube 
+ 
+Procedure: 
+Open nanoHUB. 
+Goto Resources -> Tools. 
+Select Tunneling in Tags. 
+Select Tunneling -> ANTSY 
+Press Launch tool in info section. 
+Select Applications -> opensource – Resonant tunnelling diode (RTD) 
+Select Device -> 1 Barrier  
+Press simulate to view results. 
+Select Result - > current voltage characteristics 
+Select Device ->1 Barrier  ● 	Change the dimension of barrier ● 	Press simulate to view results. ● 	Select Device -> 2 Barrier   
+Press simulate to view results. 
+Select Device -> 2 Barrier   ● 	Change the dimension of barrier ● 	Press simulate to view results. 
+Compare the results of various barriers 
+ 
+Theory: 
+The use of a barrier to control the flow of electrons from one lead to the other is the basis of transistors. The miniaturization of solid-state devices can’t continue forever. That is, eventually the barriers that are the key to transistor function will be too small to control quantum effects and the electrons will tunnel when the transistor should be off. This is a consequence of the particle-wave duality of electrons, and the single electron characterization of Schrodinger’s equation. At the quantum level the wave nature of the electron will allow the electrons to tunnel through the barriers and create a current. Quantum effects are seen at dimensions less then a micron, but the tunneling effect is expected to be dominant when the critical dimensions approach the wavelength of an electron (approx. 10nm). Ingenious devices exploit the quantum effects of miniature structures to control electrical current. These devices operate by single electron control, and they require that electron movement be confined to two (quantum well), one (quantum wire), or zero (quantum dot) dimensions. In these devices small voltages heat electrons rapidly, inducing complex nonlinear behavior; the study of “hot” electrons, as they are termed, is central to the further development of these devices. Two such devices are the Resonant Tunneling Diode and the Resonant Tunneling Transistor. These devices create a new “switching” mechanism that requires controlled quantum tunneling to function. 
+ 
+ 
+ 
+The Resonant Tunneling Diode (RTD) consists of an emitter and a collector separated by two barriers with a quantum well in between these barriers. The quantum well is extremely narrow (5-10nm) and is usually p doped. Resonant tunneling across the double barrier occurs when the energy of the incident electrons in the emitter match that of the unoccupied energy state in the quantum well. An illustration of the double barrier Resonant Tunneling Diode is shown in Figure 4 . When the quantum well energy level is below E0, no current may flow by the tunneling mechanism. When the bias is such that the energy level in the quantum well is aligned with a population of electrons above E0 in the emitter, the electrons may tunnel from the emitter, to the quantum well, and through to the collector. As the voltage is increased, the flow of electrons drops as the electrons are unable to tunnel above the resonant level. As the voltage bias continues to increase, the current begins to increase again, this time as a result of the electrons flowing over the top of the barriers. What results is an S shaped IV curve for the Resonant Tunneling Diode shown in Figure 5 . There are several proposed applications of the resonant tunneling diode. The interesting S shaped IV characteristic makes multistate memory and Logic circuits a possibility. Several resonant tunneling diodes can be combined to form multiple peaks. The implication is that there can be multiple operating points for a circuit. Rather then determining if the memory cell or logic state is a one or a zero, we can determine if it is any number of states.  The tunneling diode has not yet been fabricated using Silicon based technology, and the operating temperature of the GaAs devices fabricated is below room temperature. Repeatable control of the size of the quantum well and other structures is not yet realizable with current technologies. These and other manufacturing issues must be resolved before the resonant tunneling diode is a widely used component. 
+ 
+Output: 
+1- barrier device 
+  
+ 
+ 
+ 
+ 
+ 
+2-Barrier device
+ 
+ 
+ 
+Case Study 1: Simulate the output of RTD with well thickness of 10 nm 
+ 
+ 
+  
+ Case Study 2: Simulate the output of RTD with well thickness of 50 nm 
+ 
+ 
+  
+  
+Analytical: 
+Consider a resonant tunneling diode (RTD) with the following parameters: 
+Barrier height Vb=0.2 eV, Well width d=5 nm. Calculate the energy level of the first resonant state. 
+Given: 
+Barrier height Vb= 0.2 eV  
+Well width d= 5 nm 
+     
+  
+
+ 
+Result: 
+The voltage current characteristics of resonant Tunneling diode (RTD) for various configurations are obtained. 
+ 
+ 
+ 
+ 
+Exp. 3. DEMONSTRATION OF QUANTUM TUNNELING 
+  
+  
+Aim 
+ To learn the demonstration of Quantum Tunneling is analysed and the key learning points are observed using nano hub simulation tool 
+  
+Abstract 
+ Quantum tunneling, a phenomenon where particles penetrate energy barriers they classically cannot overcome, is pivotal in the realm of nanoelectronics. This paper demonstrates the principles of quantum tunneling and its applications in nanoscale devices, where quantum mechanical effects dominate. We explore the tunneling current behavior in nanoscale junctions and its dependence on barrier height, width, and material properties, employing advanced modeling and experimental data. 
+  
+Key applications such as tunnel diodes, single-electron transistors, and flash memory cells are examined, highlighting their reliance on tunneling mechanisms for enhanced functionality. By leveraging tunneling effects, these devices achieve unprecedented efficiency, speed, and miniaturization, underscoring the transformative potential of quantum mechanics in modern electronics. This work also discusses challenges such as leakage currents and energy dissipation, offering insights into optimizing nanoelectronic device performance through material engineering and design innovations. 
+  
+Tool name:  Piece-Wise Constant Potential Barriers Sim2L 
+This tool  simulates quantum mechanical transmission and reflection coefficients for potential barriers. It models structures with multiple segments of constant potential, useful for analyzing quantum tunneling, resonant tunneling diodes, and band formation in periodic potentials. The tool supports different approaches, including the transfer matrix and tight-binding methods, and allows for detailed analysis of barrier structures, effective mass variations, and resonance peaks. Researchers can apply this to explore quantum reflections and energy band behaviors in nanodevices. 
+  
+Procedure: 
+·           Open nanoHUB. 
+·                Goto Explore 
+·                Goto Resources 
+·                Select Tools- Piece-Wise Constant Potential Barriers Sim2L. 
+·                Press Launch tool in info section. 
+·                Enter into app mode tab in jupyter environment. 
+·                Press simulate to view results. 
+·                Compare the results. 
+  
+Outputs 
+ 
+ 
+Case study 1 : Analysis the transmission co-efficient Vs Energy characteristics on refined grid 
+ 
+Case study 2 : Analysis the Reflection co-efficient Vs Energy on Homogeneous Grid 
+  
+
+Analytical Problem  
+ 
+By solving this problem, one can understand the exponential dependence of quantum tunneling on the barrier properties and its implications for nanoelectronic device design 
+ 
+Result: Thus the Demonstration of Quantum Tunneling is analysed and the key learning points 
+are observed using nano hub simulation tool 	 
+ 
+Exp. 4. CHARACTERIZATION OF SINGLE-GATE MOSFET USING NANOHUB FETTOY SIMULATOR 
+ 
+Aim: 
+To study the current-voltage characteristics and transconductance efficiency of a single-gate MOSFET using the NanoHUB FetToy Simulator. 
+ 
+Tools Required: 
+Computer with an internet connection. 
+FetToy Simulator on the NanoHUB platform. 
+Theory: 
+A single-gate MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor) is a fundamental semiconductor device used for amplification and switching in modern electronics. It operates by modulating the flow of charge carriers (electrons or holes) between the source and drain terminals, controlled by the gate voltage (VG ). 
+Key characteristics of a MOSFET include: 
+Drain Current (ID ): This represents the current flowing from the drain to the source. It is influenced by both the gate voltage (VG ) and drain voltage (VD). 
+Transconductance Efficiency (gm/ID ): This is a measure of how effectively the MOSFET converts gate voltage modulation into a change in drain current. Higher gm/ID values indicate better efficiency. 
+Saturation Region: In this region, ID becomes relatively constant despite increasing VD . This occurs when the MOSFET channel is fully pinched off. 
+The experiment uses the NanoHUB FetToy Simulator to explore the MOSFET’s electrical properties by varying VG and VD . By analyzing the ID vs. VD and ID vs. VG curves, important parameters such as the saturation region and transconductance efficiency can be quantified. This enables a deeper understanding of MOSFET performance in electronic circuits. 
+Procedure: 
+Access the FetToy Simulator: 
+Log in to the NanoHUB platform. 
+○ Navigate to the FetToy Simulator tool. 
+Set Up the Device Parameters: 
+Select Device tab: 
+■ Choose Model: Single-Gate MOSFET. 
+■ Enter the following parameters: 
+■ Gate Insulator Thickness: 1.5 nm. 
+■ Gate Insulator Dielectric Constant: 3.9. 
+■ Effective Mass Ratio: 0.19. ■ Valley Degeneracy: 2. 
+■ Body Thickness: 10 nm 
+■ Source Doping Density: 1 x 1020 cm-3. 
+Set Up the Electrical Parameters: ○ Go to the Models tab: 
+■ Threshold Voltage: 0.32 V. 
+■ Gate Control Parameter: 0.88. 
+■ Drain Control Parameter: 0.035. ■ Series Resistance: 0 Ω μm. 
+Configure the Environment: 
+Go to the Environment tab: 
+Ambient Temperature: 300K (default). 
+○ Set up voltage sweeps: 
+■ Gate Voltage Sweep: 
+■ Initial Gate Voltage: 0 V. 
+■ Final Gate Voltage: 1 V. 
+■ Gate Voltage Bias Points: 13. 
+■ Drain Voltage Sweep: 
+■ Initial Drain Voltage: 0 V. 
+■ Final Drain Voltage: 1 V. 
+■ Drain Voltage Bias Points: 13. 
+Run the Simulation: 
+Click the Simulate button to generate the results. 
+Analyze the Output: 
+Navigate to the results section: 
+■ View Drain Current vs. Gate Voltage plot. 
+■ View Drain Current vs. Drain Voltage plot. ■ View gm/Id vs. Gate Voltage plot. 
+Extract Data: 
+Export the simulation results for further analysis. Data points for gate voltage (VGd ), drain voltage (VD ), and current (ID ) can be downloaded. 
+9. Perform Numerical Analysis: 
+○ Use the extracted data to calculate the transconductance efficiency (gm/ID ) or determine the saturation region manually if not directly available. 
+ 
+ 
+ 
+ 
+  
+Formulae Used: 
+Transconductance Efficiency: 
+𝑔𝐼𝑚 = Δ𝑉𝐺Δ𝐼𝐷⋅𝐼𝐷 
+𝐷
+ 
+Drain Current Change:  
+ΔID =ID (VG =x) − ID (VG =y) 
+Case Analysis: 
+Case 1: Increase in VG : 
+Observation: As VG increases, the drain current (ID ) also increases exponentially due to the MOSFET entering the saturation region earlier. 
+Case 2: Variation in VD : 
+Observation: Drain current (ID ) saturates for higher VD at a fixed VG . 
+Tabulation for Results: 
+Gate Voltage (VG) 
+Drain Voltage (VD) 
+Drain Current (ID) 
+Transconductance 
+Efficiency (gm/ID) 
+V 
+V 
+μA/μm 
+1/V 
+0.25 
+1.0 
+24.4 
+25 
+0.5 
+1.0 
+517 
+5.8 
+0.75 
+1.0 
+1400 
+2.94 
+
+Input Values: 
+Gate Voltage (VG ): 0–1 V in 13 steps. 
+Drain Voltage (VD ): 0–1 V in 13 steps. 
+Device parameters as listed above. 
+Sample Calculation: 
+For VG=0.5 V, VD=1.0: ID=517 μA/μm. 
+ 
+Change in ID for VG=0.5 V to VG=0.75 V ΔID=1400−517=883 μA/μm.  
+ 
+Transconductance Efficiency for VG=0.25 V: 
+gm/ID=25 V−1. 
+ 
+ 
+ 
+ 
+ 
+Results: 
+The MOSFET exhibits saturation at higher VD for VG=0.5 V. 
+As gm/ID decreases with increasing VG , indicating reduced efficiency at higher gate voltages. 
+ 
+ 
+ 
+ 
+Exp. 5. CHARACTERIZATION OF HIGH-🇰 DIELECTRIC MOSFETS 
+ 
+Aim: 
+To study the impact of high-k dielectric materials on the electrical characteristics of MOSFETs, including ID−VG, ID−VD , and transconductance efficiency (gm/ID). 
+Tools Used: MOSFet Tool 
+Theory: 
+In this experiment, a High-k Dielectric MOSFET is analyzed using the NanoHUB MOSFet Tool to investigate its electrical characteristics. High-k dielectric materials such as Hafnium Oxide (HfO2) and Zirconium Oxide (ZrO2 ) are used to replace traditional SiO2, enabling superior gate control while reducing gate leakage and power consumption. 
+The key principle involves the use of a high dielectric constant (k), which increases the gate capacitance without reducing the physical thickness of the dielectric layer. This improvement mitigates short-channel effects and enhances device performance in advanced scaling. 
+The experiment focuses on: 
+Transfer Characteristics (ID−VG ): Investigating how the gate voltage controls the drain current. 
+Output Characteristics (ID−VD ): Analyzing the behavior of the drain current with varying drain voltage. 
+Transconductance Efficiency (gm/ID ): Assessing the efficiency of converting gate voltage to current gain. 
+This study highlights the advantages of high-k dielectrics, such as reduced leakage currents, improved drive current, and scalability for advanced semiconductor devices, while also addressing trade-offs like potential mobility degradation due to material interface effects. 
+Procedure: 
+Set Device Structure: 
+Open the MOSFet Tool on NanoHUB. 
+Select "MOSFET n-type with slanted junction for ITRS 20 nm." ● Configure the structural properties: 
+Source/Drain Length: 7 nm. 
+○ Channel Length: 16 nm. 
+○ Oxide Thickness: Adjust to suit the high-k dielectric material (e.g., 10 nm). 
+○ Junction Depth: 8 nm. 
+Set Doping Profile: 
+Source/Drain Doping: 2×1020 cm−3. 
+Channel Doping: 6×1018 cm−3 
+Substrate Doping: 6×1018 cm−3. 
+Input Material-Specific Parameters: 
+Navigate to the "Model" tab. 
+Set the Oxide Dielectric Constant (k) and Oxide Barrier Height for the selected high-k dielectric material: 
+Hafnium Oxide (HfO2 ): k=25, Barrier Height = 3.4 eV. 
+○ Zirconium Oxide (ZrO2 ): k=22, Barrier Height = 3.2 eV. 
+○ Titanium Oxide (TiO2 ): k=80, Barrier Height = 3.0 eV. 
+○ Aluminum Oxide (Al2O3 ): k=9, Barrier Height = 2.8 eV. 
+Configure Voltage Sweep: 
+In the Voltage Sweep Tab: 
+ID−VG Plot: 
+Gate Voltage (VG ): Sweep from 0 V to 5 V. 
+○ Drain Bias (VD ): Sweep from 0 V to 2 V for 5 curves. 
+ID−VD Plot: 
+Drain Voltage (VD ): Sweep from 0 V to 4 V. 
+○ Gate Bias (VG ): Sweep from 0 V to 3 V for 8 curves. 
+Ambient Temperature: Ensure it is set to 300 K in the Model Tab. 
+Gate Electrode: Use Aluminum (4.19 eV) as the default. 
+Mobility Models: 
+Enable Concentration Dependent Ionized Impurity Scattering. 
+Enable Parallel Electric Field Dependence for more accurate modeling. 
+Disable Vertical Field Dependent Mobility Model unless studying such effects explicitly. 
+Run the Simulation: 
+Simulate the device and extract data for ID−VG , ID−VD , and gm/ID . 
+Data Analysis: 
+Plot ID−VG , ID−VD, and gm/ID curves. 
+Compare the performance of different high-k materials. 
+Tabulation: 
+High k Oxide Material 
+Oxide thickness (nm) 
+k value 
+ID (A) @ VG = 1V, VD = 1V 
+gm/ID @ VG = 1V, VD = 1V 
+HfO2 
+10 
+25 
+2.2 x 10-5 
+5.8 
+ZrO2 
+10 
+22 
+2.02 x 10-5 
+5.5 
+TiO2 
+10 
+80 
+1.97 x 10-5 
+6.0 
+Al2O3 
+10 
+9 
+1.85 x 10-5 
+5.0 
+
+Case Analysis: 
+Case 1: Variation in Dielectric Constant 
+Higher k values reduce gate leakage and improve drive current. 
+TiO2 (k=80) shows the highest ID and efficiency but may suffer from mobility degradation. 
+Case 2: Effect of Oxide Thickness 
+Reducing oxide thickness improves gate control but increases leakage. ● Compare Tox=5 nm vs. 10 nm. 
+Case 3: High-k vs. Low-k Dielectrics 
+Compare SiO2 (k=3.9) with high-k materials. 
+High-k materials allow for better scaling and lower gate leakage. 
+Case 4: Impact of Doping 
+Increasing channel doping enhances drive current but reduces gm/ID . 
+Case 5: Performance at Higher VD 
+Analyze saturation behavior of ID at VD>2 V 
+Sample Calculation: 
+For Hafnium Oxide (HfO2): 
+From the gm/ID table: 
+At VG=1 V, gm/ID 
+=5.8 V−1 
+ 
+Transconductance (gm ):  
+gm=ID⋅(gm/ID) 
+=(2.12×10−5)⋅5.8 
+=1.2296×10−4 S 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Output For HfO2 
+ 
+ 
+ 
+ 
+  
+Results: 
+High-k dielectrics improve ID and reduce leakage but may affect mobility. 
+Hafnium Oxide (HfO2 ) and Titanium Oxide (TiO2) are promising for high-performance MOSFETs due to higher ID and gm/ID . 
+Proper selection of oxide thickness and doping profile is critical for optimizing performance. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+EXP. 6. DEMONSTRATION OF BALLISTIC TRANSPORT  
+Aim: 
+To learn the demonstration of Ballistic Transport is analysed and the key learning points are observed using nano hub simulation tool  Theory: 
+Ballistic transport, where charge carriers traverse a conductor without scattering, is a fundamental mechanism in nanoscale electronic devices. This paper presents a detailed demonstration of ballistic transport in nanoelectronics, focusing on its role in enabling high-performance, low-power systems. By utilizing ultra-scaled structures such as carbon nanotubes, graphene, and semiconductor nanowires, we investigate the conditions under which ballistic conduction occurs and its dependence on device geometry, carrier mobility, and quantum effects. 
+Experimental and theoretical analyses highlight key parameters, such as mean free path and channel length, that dictate the transition between diffusive and ballistic regimes. Applications in field-effect transistors (FETs), quantum point contacts, and interconnects are explored, emphasizing their ability to operate with minimal resistive losses and enhanced speed. The study also addresses practical challenges, including contact resistance and thermal effects, offering design strategies to harness ballistic transport in next-generation nanoelectronic devices. 
+NanoFET is a newly developed tool that simulates quantum mechanical size quantization in the inversion layer and phase coherent and ballistic transport properties in two-dimensional MOSFET devices. The overall simulation framework consists of the real-space effective mass non-equilibrium Green’s function equations solved self-consistently with Poisson’s equation. Solution of this set of equations is computationally intensive. Hence, nonuniform spatial grids are essential to limit the total number of grid points while at the same time resolving physical features. A novel algorithm for efficient computation of electron density without complete solution of the system of equations even in the presence of nonzero self-energies throughout the device has been used in this simulator. 
+Procedure: 
+·            Open nanoHUB. 
+·                Goto Resources -> select nanoFET Tools ·                Press simulate to view results. 
+·                Enter appropriate values in required section. 
+·                Proceed simulation option. 
+·                Press simulate to view results. 
+·                Compare the results. 
+   
+Outputs: 
+ 
+  
+Case study 1 : SIO2 oxide material’s output characteristics 
+
+ 
+  
+Case study 2 : Other Oxide material’s output characteristics 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Result: Thus the Demonstration of Ballistic Transport is analysed and the key learning points are observed using nano hub simulation tool 
+ 
+ 
+ 
+ 
+Exp. 7. SIMULATION OF VI CHARACTERISTICS OF FINFET BY VARYING THE GATE CHANNEL LENGTH AND OXIDE THICKNESS 
+ 
+Aim: 
+ 
+To Obtain the VI Characteristics of FinFET by varying the Gate Channel length and oxide thickness 
+  
+Software: NanoHub Online Tube 
+ 
+  
+    
+Background Concepts: 
+  
+FinFET technology takes its name from the fact that the FET structure used looks like a set of fins when viewed. 
+  
+The main characteristic of the FinFET is that it has a conducting channel wrapped by a thin silicon "fin" from which it gains its name. The thickness of the fin determines the effective channel length of the device. 
+  
+In terms of its structure, it typically has a vertical fin on a substrate which runs between a larger drain and source area. This protrudes vertically above the substrate as a fin. 
+  
+The gate orientation is at right angles to the vertical fin. And to traverse from one side of the fin to the other it wraps over the fin, enabling it to interface with three side of the fin or channel. 
+  
+This form of gate structure provides improved electrical control over the channel conduction and it helps reduce leakage current levels and overcomes some other short-channel effects. 
+  
+The term FinFET is used to describe any fin-based, multigate transistor architecture regardless of number of gates. 
+ 
+Procedure: 
+Open nanoHUB. 
+Goto Resources -> Tools. 
+Select FinFET  
+Press Launch tool in info section. 
+Select the appropriate device and bias parameters-> Simulate 
+Select -> the appropriate simulated output-> VI Characteristics 
+Repeat the above steps for the given case study problem statement 
+  
+Output: 
+  
+ 
+The output Drain current Performance Vs Gate supply voltage of FinFET device 
+ 
+ 
+	          	The output Drain current Performance Vs Drain voltage of FinFET device 
+  
+Case Study 1: Simulate & obtain the current spectrum characteristics for the last bias point of 
+FinFET. Analyze the performance for different Oxide layer thicknesses 
+ 
+  
+  
+Case Study 2: Simulate & obtain the electron density per sheet characteristics of FinFET. 
+Analyze its performance with different Gate region length 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+OUTCOME: 
+  
+Thus, the simulation of VI characteristics of FINFET by varying the gate channel length and oxide thickness is analyzed and key learning points are observed 
+ 
+Exp. 8. SIMULATION OF DENSITY OF STATES AND CONDUCTANCE OF CNTFET BY VARYING THE DIAMETER AND LENGTH 
+Aim: 
+ 
+To obtain the density of states and conductance of CNTFET by varying the diameter and length. 
+ 
+  
+Software: NanoHub Online Tube 
+  
+Theory: 
+   
+  
+Carbon nanotubes (CNTs) are allotropes of carbon with a cylindrical nanostructure. These cylindrical carbon molecules have unusual properties, which are valuable for nanotechnology, electronics, optics and other fields of materials science and technology. Owing to the material's exceptional strength and stiffness, nanotubes have been constructed with length-to-diameter ratio of up to 132,000,000:1. For a given (n,m) nanotube, if n = m, the nanotube is metallic; if n − m is a multiple of 3 and n ≠ m and nm ≠ 0, then the nanotube is quasi-metallic with a very small band gap, otherwise the nanotube is a moderate semiconductor. Thus all armchair (n = 
+m) nanotubes are metallic, and nanotubes (6,4), (9,1), etc. are semiconducting. The diameter of CNT can be given as: 
+  
+The angle of CNT is given by 
+  
+   
+Procedure: 
+Open nanoHUB. 
+Goto Resources -> Tools. 
+Select CNTFET ->CNT Mobility 
+Press Launch tool in info section. 
+Select the -> diameter of CNT 
+Select -> Simulate 
+Select ->Result -> conductance 
+Select ->Result -> Density of states 
+Repeat the above for various diameter 
+Select the -> Length of CNT 
+Select -> Simulate 
+Select ->Result -> conductance 
+Select ->Result -> Density of states 
+  
+Output: 
+  
+ 
+ 
+  
+  
+Case study 1: Simulate & Obtain the VI characteristics of CNT-FET by varying Schottky barrier and oxide thickness 
+ 
+ 
+Case study 2: Simulate & Obtain the VI characteristics of CNT-FET by varying CNT diameter 
+ 
+ 
+ 
+OUTCOME: 
+  
+Thus the simulation of density of states and conductance of CNTFET by varying the diameter and length is analyzed and key learning points are observed. 
+ 
+Exp. 9.  SIMULATION OF VI CHARACTERISTIC OF GRAPHENE FIELD EFFECT TRANSISTOR 
+Date: 
+ Aim: 
+To simulate the Voltage-Current (VI) characteristics of a Graphene Field Effect  Transistor (GFET) using appropriate simulation tools, analyze its performance under  varying gate voltages and drain-source voltages, and understand its behavior as a  high-mobility semiconductor device. 
+ Software: NanoHub Online Tube  Theory:  
+Graphene is a semimetal with small overlap between the valence and the conduction bands (zero bandgap material). It is an allotrope (form) of carbon consisting of a single layer of carbon atoms arranged in a hexagonal lattice.It is the basic structural element of many other allotropes of carbon, such as graphite, diamond, charcoal, carbon nanotubes and fullerenes. 
+                  
+	Fig 1. Graphene 	 	 	Fig 2. Graphene  
+                   Graphene is a zero-gap semiconductor, because its conduction and valence bands meet at the Dirac points, which are six locations in momentum space, on the edge of the Brillouin zone, divided into two non- equivalent sets of three points. The two sets are labeled K and K'. The sets give graphene a valley degeneracy of gv = 2. By contrast, for traditional semiconductors the primary point of interest is generally Γ, where momentum is zero. However, if the in-plane direction is confined, in which case it is referred to as a nanoribbon, its electronic structure is different. If it is "zig-zag", the bandgap is zero. If it is "armchair", the bandgap is non-zero. The corresponding resistivity of graphene sheets would be 10−6 Ω⋅ cm. This is less than the resistivity of silver, the lowest otherwise known at room temperature.  
+Procedure: 
+Open nanoHUB. 
+Goto Resources -> Tools. 
+Select Graphene -> GFET 
+Press Launch tool in info section. 
+Select the -> Width 
+Click on Simulation 
+Select ->Result -> Ids vs Vds 
+Repeat the above steps for various width 
+Select -> Length 
+Select ->Result -> Ids vs Vds 
+Repeat the above steps for various width 
+ 
+Output:    
+  
+ 
+ 
+Case Study 1:How does varying the gate voltage (Vgs) affect the drain current (Ids) in a GFET? 
+  
+ Inference:For Vgs>0V (Positive Gate Voltage): 
+· Vgs attracts electrons to the graphene channel, increasing the electron carrier density. 
+· The drain current (Ids) increases linearly in the ohmic region and saturates in the saturation region as Vgs increases further. 
+· Varying Vgs directly modulates Ids in a GFET, demonstrating graphene's ambipolar nature. This behavior distinguishes GFETs from conventional FETs and enables their use in high-frequency electronics and analog circuits. 
+  
+Case Study 2: What factors determine the maximum drain current (Ids,max ) in a Graphene Field Effect Transistor (GFET)? 
+        
+Inference:· The VI curve exhibits a symmetric behavior around the Dirac point (Vgs=0V), where the drain current is at its minimum. 
+·   For positive Vgs, the current is dominated by electrons, while for negative Vgs, holes dominate the conduction. 
+Ids,max was observed at a specific Vgs and Vds combination due to graphene's high mobility and low intrinsic resistance. The maximum drain current of 0.5×10−30.5 times A was achieved under specific gate and drain voltage conditions, confirming the simulation's accuracy. 
+ Case Study 3: To investigate how the mobility of charge carriers in a Graphene Field-Effect Transistor (GFET) with a mobility of 2000 cm²/V·s influences its current-voltage (VI) characteristics. 
+ 
+ Inference:  
+· The simulated VI curves show a relatively high drain current (Ids) for a given gate-source voltage (Vgs ), demonstrating efficient carrier transport in the graphene channel. High carrier mobility (2000 cm2/Vs) minimizes scattering effects, enabling rapid carrier movement and improved current conduction. 
+Result: 
+The VI characteristics of the Graphene Field Effect Transistor (GFET) were successfully simulated. The device demonstrated: 
+· A sharp increase in current with increasing Vgs due to high carrier mobility, with the drain current reaching a maximum of 0.5 mA at Vgs=5V. 
+· A low threshold voltage of approximately 0.5 V, indicating efficient operation at low gate voltages. 
+· The linear and saturation regions of operation were clearly observed, showing typical GFET behavior. The simulation confirms the potential of GFETs for high-speed and low-power applications in future electronic devices. 
+ 
+Exp. 10.   DEMONSTRATION OF ELECTROMAGNETIC RESONANCE IN MAGNETIC NANOPARTICLES 
+Date:  
+Aim: The aim of this tool is to simulate the Electron Magnetic Resonance (EMR) absorption spectrum and its first derivative (the EMR signal) in Magnetic Nanoparticles (MNPs), enabling the analysis of the magnetic properties and dynamics of nanoparticles through their resonance behavior in an external magnetic field. 
+ Software: NanoHub Online Tube  Theory: 
+Electron Magnetic Resonance (EMR), also known as Electron Paramagnetic Resonance (EPR), is a technique used to study materials with unpaired electrons, such as Magnetic Nanoparticles (MNPs). When an external magnetic field is applied, the magnetic moments of unpaired electrons in MNPs align with the field, causing energy level splitting due to the Zeeman effect. 
+When microwave radiation is applied at a frequency matching the energy difference between these levels, resonance occurs, and the system absorbs energy. The resonance condition is given by: ℏω=gμBB\hbar \omega = g \mu_B Bℏω=gμB B Where: 
+· ℏ\hbarℏ is the reduced Planck constant, 
+· ω\omegaω is the microwave frequency, 
+· ggg is the g-factor, 
+· μB\mu_BμB is the Bohr magneton, and · BBB is the magnetic field strength. 
+The first derivative of the EMR spectrum enhances signal resolution, providing detailed information about the magnetic environments and g-factor distribution in MNPs. 
+  
+Procedure: 
+Open nanoHUB. 
+Goto Resources -> Tools. 
+Select Magnetic Nanoparticles -> Electron Magnetic Resonance ● Press Launch tool in info section. 
+Select the -> Magnetic Nano particles 
+Click on Simulation 
+Select ->Result -> EMR adsorption Spectra of MNP 
+Repeat the above steps for various Size of Magnetic Nano particles and Temp 
+  
+Output: 
+  
+  
+  
+  
+ Case Study:1 To investigate the influence of the effective anisotropy field of 500 Oersted on the energy barrier for magnetization reversal in Magnetic Nanoparticles (MNPs). 
+  
+  
+  
+ Inference:  
+The effective anisotropy field of 500 Oersted plays a critical role in determining the energy barrier for magnetization reversal in Magnetic Nanoparticles (MNPs). A higher anisotropy field increases the energy barrier, making the magnetization reversal more difficult, which results in greater stability of the nanoparticle's magnetic moment. This stability is crucial for superparamagnetic behavior, especially at low temperatures. 
+ Case Study:2 To investigate how the size of magnetic nanoparticles (10 nm) influences their superparamagnetic behavior at 30K, with a focus on understanding the effect of nanoparticle size on the magnetic moment of the nanoparticles, considering the provided effective anisotropy field of 500 Oersted. 
+  
+  
+  
+Inference:    
+The size of magnetic nanoparticles (10 nm) plays a crucial role in determining their superparamagnetic behavior at 30K. At this size, the nanoparticles exhibit a significant thermal energy compared to the anisotropy energy, which allows for the rapid flipping of the magnetic moment in response to thermal fluctuations, resulting in superparamagnetism. The provided effective anisotropy field of 500 Oersted increases the energy barrier for magnetization reversal, but at 30K, the thermal energy is sufficient to overcome this barrier, leading to random orientation of the magnetic moments and the absence of permanent magnetization. 
+ Case Study:3 To investigate how the effective anisotropy field of 500 Oersted influences the energy barrier for magnetization reversal in 10 nm magnetic nanoparticles at 100K. 
+  
+  
+ 
+  Inference: 
+At 100K, the effective anisotropy field of 500 Oersted plays a significant role in determining the energy barrier for magnetization reversal in 10 nm magnetic nanoparticles. The higher temperature provides enough thermal energy to overcome the anisotropy barrier to some extent, making the nanoparticles more susceptible to magnetization reversal. This is because, at elevated temperatures, thermal fluctuations become more pronounced, causing the magnetic moments of the nanoparticles to randomly flip, especially if the energy barrier for reversal is not significantly large. 
+  
+ 
+ 
+Result: 
+Thus  the Electromagnetic Resonance (EMR) phenomenon in magnetic nanoparticles (MNPs) by analyzing their absorption spectrum and the first derivative of the EMR signal. The experiment was performed under controlled conditions with specific parameters for effective anisotropy field, nanoparticle size, and temperature. 
+ 
+ 
+ 
+ 
+Exp. 11. BIOSENSOR AND BIO FET 
+ 
+Simulation of Potential of a sensor by varying the pH value of an electrolyte and insulator thickness of biosensor 
+Aim: 
+To simulate the threshold voltage of a BioFET-based biosensor as a function of electrolyte pH (4 to 8). 
+To analyze the transfer characteristics (IdsI_{ds}Ids vs. VfgV_{fg}Vfg ) of the BioFET for varying pH levels and interpret the sensor's performance. 
+ 
+Tools Required: 
+NanoHUB BioSensor Lab (Version 2): Used for simulating threshold voltage and transfer characteristics. 
+Excel/MATLAB: For plotting and analyzing simulation results against theoretical predictions. 
+ 
+Theory: 
+pH Sensitivity: 
+The potential at the BioFET sensor surface is modulated by the pH of the surrounding electrolyte. This is governed by the Nernst equation: 
+E=E0−(2.303 RT)/F pH where the theoretical sensitivity is 59 mV/pH at 25∘C. 
+Transfer Characteristics: 
+The transfer characteristics (Ids vs. Vfg ) describe the variation of drain current (Ids ) with the gate voltage (Vfg ), influenced by the electrolyte pH. The characteristics shift as pH changes, indicating effective sensing. 
+Key Parameters: 
+Threshold Voltage (Vt): Reflects the potential at which the device turns on and shifts linearly with pH. 
+○ Current Sensitivity (Ids ): Demonstrates changes in the channel current with pH variation. 
+ 
+Simulation Parameters: 
+Device Parameters of Sensor: 
+Sensor Type: EGFET (Extended-Gate Field Effect Transistor). 
+Biological Parameters: ○ Analyte: DNA. 
+Receptor Density: 1×10^12. 
+Ambient Conditions: 
+Incubation Time: 60 minutes. ○ Temperature: 300 K (25°C). 
+pH Variation: 
+Simulated for pH values ranging from 4 to 8. 
+ 
+Procedure: 
+Step 1: Threshold Voltage Simulation 
+Open the BioSensor Lab in NanoHUB. 
+Set the device parameters as specified above. 
+Vary the pH of the electrolyte from 4 to 8 in steps of 1. 
+Record the threshold voltage (Vt ) for each pH. 
+Step 2: Transfer Characteristics Simulation 
+Using the same tool, select EGFET as the sensor type. 
+Fix the electrolyte pH and vary the gate voltage (Vfg ) between 0.4 V and 1 V. 
+Record the drain current (Ids) for each pH value. 
+Step 3: Data Analysis 
+Plot the threshold voltage (Vt ) as a function of pH. 
+Overlay the transfer characteristics (Ids vs. Vfg ) for different pH values. 
+Compare the simulated results with theoretical predictions. 
+ 
+Results and Observations: 
+Threshold Voltage as a Function of pH: 
+Simulation Result: 
+The threshold voltage increases linearly with pH, as shown in the plot below: 
+○ For pH 4 to pH 8, the threshold voltage shifts between 0.65 V and 0.75 V. 
+Observation: 
+The linear relationship validates the Nernstian behavior of the BioFET with an approximate sensitivity of 59 mV/pH59 \, \text{mV/pH}59mV/pH, matching theoretical expectations. 
+Transfer Characteristics (Ids vs. Vfg ) for Different pH: 
+Simulation Result: 
+The transfer characteristics exhibit a shift in IdsI_{ds}Ids with varying pH levels, as shown below: 
+○ Higher pH results in an increased threshold voltage, shifting the curve to the right. 
+Observation: 
+The results demonstrate effective detection of pH changes, with the BioFET showing higher IdsI_{ds}Ids for lower VfgV_{fg}Vfg at lower pH levels. 
+ 
+ 
+ 
+ 
+Conclusion: 
+The BioFET sensor demonstrates linear sensitivity to pH changes, with a near-theoretical response of 59 mV/pH59 \, \text{mV/pH}59mV/pH. 
+The transfer characteristics (Ids vs. Vfg ) effectively shift with varying pH, confirming the sensor's ability to detect electrolyte variations. 
+The EGFET configuration is validated as a reliable model for BioFET simulations, offering insights into potential optimizations for practical applications. 
+ 
+Future Scope: 
+Extend the analysis to wider pH ranges (e.g., 2 to 12) to identify saturation effects. 
+Study the influence of different insulator materials (e.g., SiO₂, HfO₂) on sensitivity and noise performance. 
+Simulate the BioFET with different analytes (e.g., proteins or ions) to generalize the model for various biosensing applications. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Exp. 12. CALCULATE THE POTENTIAL OF A PH SENSOR 
+Date: 
+Aim: 
+To obtain the Potential of a sensor by varying the pH value of an electrolyte and insulator thickness 
+Software: NanoHub Online Tube 
+Theory: 
+An Electrolyte–insulator–semiconductor (EIS) sensor is a sensor that is made of these three components: 
+an electrolyte with the chemical that should be measured 
+an insulator that allows field-effect interaction, without leak currents between the two other components a semiconductor to register the chemical changes 
+The EIS sensor can be used in combination with other structures, for example to construct a light-addressable potentiometric sensor (LAPS). 
+  
+Procedure: 
+Open nanoHUB. 
+Goto Resources -> Tools. 
+Select -> ENBIOS 1D 
+Press Launch tool in info section. 
+Select the -> semiconductor/insulator/electrolyte 
+Click on Simulation 
+Select ->Result -> Potential 
+Select -> electrolyte -> change pH value 
+Click on simulation 
+Select -> Result -> Potential 
+Repeat the above steps for different pH values 
+Select -> Insulator-> change thickness and length 
+Click on simulation 
+Select -> Result -> Potential 
+Repeat the above steps for different thickness and length 
+  
+Parameters: 
+  
+  
+  
+  
+ 
+ 	 
+ 	 
+Model Output: Result: 
+ 
+ 
+ 
+Exp. 13. SIMULATION OF VI CHARACTERISTICS OF SOLAR CELL  
+Aim: To obtain the VI characteristics of Solar cell Software: NanoHub Online Tube Theory:  
+The solar cell works in several steps:  
+Photons in sunlight hit the solar panel and are absorbed by semiconducting materials, such as silicon.  
+Electrons are excited from their current molecular/atomic orbital. Once excited an electron can either dissipate the energy as heat and return to its orbital or travel through the cell until it reaches an electrode. Current flows through the material to cancel the potential and this electricity is captured. The chemical bonds of the material are vital for this process to work, and usually silicon is used in two layers, one layer being doped with boron, the other phosphorus. These layers have different chemical electric charges and subsequently both drive and direct the current of electrons.  
+An array of solar cells converts solar energy into a usable amount of direct current (DC) electricity.  
+An inverter can convert the power to alternating current (AC). The most commonly known solar cell is configured as a large-area p–n junction made from silicon. Other possible solar cell types are organic solar cells, dye sensitized solar cells, perovskite solar cells, quantum dot solar cells etc. The illuminated side of a solar cell generally have a transparent conducting film for allowing light to enter into active material and to collect the generated charge carriers. Typically, films with high transmittance and high electrical conductance such as indium tin oxide, conducting polymers or conducting nanowire networks are used for the purpose  Procedure:  
+Open nanoHUB.  
+Goto Resources -> Tools.  
+Select -> PV -> PV panel sim  
+Press Launch tool in info section.  
+Select the -> material -> amorphous silicon  
+Select -> Panel configuration  
+Click on Simulation  
+Select ->Result -> IV curve for solar panel  
+Repeat the simulation for various panel configuration  
+Select the -> material -> Crystalline silicon  
+Select -> Panel configuration  
+Click on Simulation  
+Select ->Result -> IV curve for solar panel  
+Repeat the simulation for various panel configuration  Output:  
+Case Study 1: Simulate the IV Characteristics of crystalline silicon  
+ 
+ 
+Case Study 2: Simulate the IV Characteristics of amorphous silicon  
+ 
+ 
+ 
+Result: SIMULATION OF VI CHARACTERISTICS OF SOLAR CELL IS ACCOMPLISHED. 
+ 
+Exp. 14. SIMULATION OF TUNNELLING MAGNETORESISTANCE (TMR) BY VARYING BARRIER HEIGHT.  
+ 
+ 
+ 
+Aim:  
+To obtain the Tunnelling Magnetoresistance (TMR) by varying barrier height. Software: NanoHub Online Tube  
+ 
+Theory:  
+Tunnel magnetoresistance (TMR) is a magneto resistive effect that occurs in a magnetic tunnel junction (MTJ), which is a component consisting of two ferromagnets separated by a thin insulator. If the insulating layer is thin enough (typically a few nanometres), electrons can tunnel from one ferromagnet into the other. Since this process is forbidden in classical physics, the tunnel magnetoresistance is a strictly quantum mechanical phenomenon. Magnetic tunnel junctions are manufactured in thin film technology. On an industrial scale the film deposition is done by magnetron sputter deposition; on a laboratory scale molecular beam epitaxy, pulsed laser deposition and electron beam physical vapor deposition are also utilized. The junctions are prepared by photolithography.  
+ 
+Procedure:  
+Open nanoHUB.  
+Goto Resources -> Tools.  
+Select Magnetic Tunnel Junction Lab ● Press Launch tool in info section.  
+Select the -> barrier height  
+Click on Simulation  
+Select ->Result -> Tunnel magnetoresistance (TMR)  
+Repeat the above steps for various barrier height  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Output:  
+Case Study 1: Characteristics of TMR with barrier height of 0.85eV 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Case Study 2: Characteristics of TMR with barrier height of 1.0eV  
+
+Result: SIMULATION OF TUNNELLING MAGNETORESISTANCE (TMR) BY VARYING BARRIER HEIGHT IS ACCOMPLISHED. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Exp. 15. KRONIG PENNEY MODEL 
+Date: 
+  
+Aim: 
+To simulate Energy functional vs Energy graph using Kronig Penney model 
+ Software: NanoHub Online Tool 
+ Procedure: 
+Open nanoHUB. 
+Goto Resources -> Tools. 
+Select Kronig Penney Model in Tags. 
+Select Kronig Penney Model -> Periodic Potential Lab ●       Press Launch tool in info section. ●       Select Potential Type-> Step well 
+Select Energy details -> Maximum Barrier Height ->1eV ●       Press simulate to view results. 
+Select Result - > Energy Functional Vs Energy 
+  
+Theory: 
+The Kronig-Penney model is a simplified theoretical model used in solid-state physics to describe the behavior of electrons in a periodic potential, such as the potential experienced by electrons in a crystal lattice. This model was introduced by Ralph Kronig and William G. Penney in 1931 and is particularly useful for understanding electronic band structure in materials like semiconductors and insulators. 
+Basic Assumptions of the Model 
+The model assumes that the electron in a one-dimensional system (simplified from the three-dimensional nature of real solids) moves in a periodic potential. 
+This potential is typically modeled as a series of square wells (often called "delta function wells"), but the exact form can vary. The periodicity of the potential reflects the repeating structure of atoms in a crystal. 
+The model assumes free electrons between these potential wells, meaning there are no interactions between the electrons themselves. 
+The Potential 
+The potential in the Kronig-Penney model is periodic and is often represented as a series of delta functions or square wells in one dimension. A simple potential can be written as: 
+ 
+V0  is the strength of the potential well, a is the width of the potential well, and the potential is periodic with period b (i.e., the distance between two adjacent wells). 
+This means that the potential is a repeating square well every distance bbb, with each well having a depth V0 and a width a. 
+Output: 
+ 
+  
+ 
+ 
+  
+ 
+Case Study 1: Simulate the output for Triangular well 
+ 
+ 
+ 
+ 
+  
+ 
+Case Study 2: Simulate the output for Sinusoidal Potential 
+ 
+ 
+ 
+  
+ 
+Analytical:
+Finding Energy Bands for a Simple Kronig-Penney Model 
+ 
+ 
+  
+Result: 
+The energy functional vs Energy graph using the Kronig Penney model is simulated. 
+ 
